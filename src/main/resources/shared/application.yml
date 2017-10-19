@@ -1,0 +1,6 @@
+security:
+  oauth2:
+    jwt:
+      key_path: /home/michal/Dokumenty/mytest.jks
+      password: mypass
+      key_pair: mytest

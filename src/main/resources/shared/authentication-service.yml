@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/neons?currentSchema=public
+    username: postgres
+    password: postgres
+
+server:
+  contextPath: /
+  port: ${SERVER_PORT:8085}
+
+logging:
+  level: debug
